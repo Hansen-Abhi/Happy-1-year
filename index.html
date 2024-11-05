@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Surprise</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background-image: url('https://i.postimg.cc/vBdPyrX5/Screenshot-5.png');
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-container {
+            position: absolute;
+            bottom: 45px;
+            right: 65px;
+        }
+
+        .cta-button {
+            background-color: #ff69b4; /* Hot Pink */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff1493; /* Deep Pink */
+            transform: scale(1.05);
+        }
+
+        .cta-button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+        <a href="second-page.html" class="cta-button">Yes, take me there!</a>
+    </div>
+
+</body>
+</html>
